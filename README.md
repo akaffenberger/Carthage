@@ -1,5 +1,12 @@
 ![](Logo/PNG/header.png)
 
+# Install
+
+`brew tap akaffenberger/formulas && brew install akaffenberger/formulas/carthage`
+> Note: This a fork off of Carthage to fix the following issues: 
+> * binary downloads hosted in firestore: https://github.com/Carthage/Carthage/issues/3193
+> * incorrect workspace used https://github.com/Carthage/Carthage/issues/3181
+
 # Carthage [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Carthage/Carthage/master/LICENSE.md) [![GitHub release](https://img.shields.io/github/release/carthage/carthage.svg)](https://github.com/Carthage/Carthage/releases) [![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
 
 Carthage is intended to be the simplest way to add frameworks to your Cocoa application.
